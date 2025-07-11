@@ -141,3 +141,37 @@ header{
     border-radius: 48px;
     margin: 0 0 0 100px;
 }
+.productive{
+    background-color: rgba(78, 71, 255, 0.1);
+    align-items: center;
+    margin: 116px 140px 50px 116px;
+    border-radius: 24px;
+    padding: 50px 142px;
+}
+
+.productive-headline{
+    font-size: 38px;
+    font-weight: 700;
+    color: #252432;
+    padding: 10px;
+    text-align: center;
+    margin: 50px 142px 40px 142px;
+}
+
+.productive-data{
+    display: flex;
+    justify-content: space-around;
+}
+
+.numbers{
+    font-size: 80px;
+    font-weight: 700;
+    color: #4E47FF;
+}
+
+.number-head{
+    font-size: 20px;
+    font-weight: 200;
+    color: #000000;
+}
+
