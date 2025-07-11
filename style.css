@@ -21,7 +21,7 @@ header{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 900px;
+    height: 1100px;
     width: 100%;
 }
 .nav-bar{
@@ -36,7 +36,7 @@ header{
     font-size: 34px;
     font-weight: 900;
     color: #4E47FF;
-    margin: 70px 0 0 150px ;
+    margin: 70px 0 0 0 ;
 }
 
 .signup-button{
@@ -49,7 +49,7 @@ header{
     border: none;
     transition-duration: 0.4s;
     cursor: pointer;
-    margin: 70px 120px  0 ;
+    margin: 70px 20px  0 ;
 
 
 }
@@ -94,3 +94,50 @@ header{
     color: #FFFFFF;
 }
 
+.action{
+    display: flex;
+    margin: 116px 140px 0 116px;
+    justify-content: space-between ;
+    align-items: center;
+}
+
+.action-design{
+    text-align: left;
+
+}
+
+.action-headline{
+    font-size: 42px;
+    font-weight: 700;
+    color: #252432;
+}
+
+.action-subheadline{
+    font-size: 24px;
+    font-weight:200;
+    color: rgba(37, 36, 50, 0.5);
+    margin: 23px 0 0 0 ;
+}
+
+.launch-button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 12px 36px 12px 36px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 23px 120px  0  0;
+}
+.launch-button:hover{
+    background-color:#3A36CC;
+    color: #FFFFFF;
+
+}
+
+.action-image{
+    border-radius: 48px;
+    margin: 0 0 0 100px;
+}
