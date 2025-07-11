@@ -222,19 +222,75 @@ header{
     align-items: center;
     margin: 24px 0 0 0;
 }
+
 .reviewer-info{
     margin-left: 12px;
 }
+
 .reviewer-name{
     font-size: 16px;
     font-weight: 600;
     color: #757575;
-
 }
 
 .date{
     font-size: 16px;
     font-weight: 400;
     color: #B3B3B3;
+}
+.newsletter{
+    display: flex;
+    gap: 115px;
+    margin: 90px 150px 90px 150px ;
+}
+.news-heading{
+    font-size: 97px;
+    font-weight: 700;
+    color: #000000;
+    margin: 90px 150px 90px 150px ;
+
+}
+
+
+body input[type="text"], body input[type="email"], body textarea{
+    height: 64px;
+    border-radius: 10px;
+    background-color: #D6DDED;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+
+}
+.head-font{
+    font-size: 18px;
+    font-weight: 500;
+    color: #000000;
+    padding-bottom: 10px;
+}
+.sub-head{
+    font-size: 20px;
+    font-weight: 400;
+    color: #000000;
+}
+
+.get-in-touch-button{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    background-color: #4E47FF;
+    border-radius: 10px;
+    padding: 19px 199px 19px 199px;
+    border: none;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 20px 20px  0 32px;
+    width: 100%;
+}
+
+.get-in-touch-button:hover{
+    background-color:#3A36CC;
+    color: #FFFFFF;
 
 }
